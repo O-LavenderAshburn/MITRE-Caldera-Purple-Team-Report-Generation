@@ -65,7 +65,9 @@ def normalize_event(e: Dict[str, Any]) -> Dict[str, str]:
         "tactic": tactic,
         "command": decoded_cmd
     }
-
+"""
+Generate the markdown table for purple team.
+"""
 def generate_md_table(events: List[Dict[str, str]]) -> str:
     lines = []
     lines.append("## Event Logs — TTP Summary")
