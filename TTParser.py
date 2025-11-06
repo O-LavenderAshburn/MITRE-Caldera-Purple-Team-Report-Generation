@@ -70,7 +70,7 @@ def generate_md_table(events: List[Dict[str, str]]) -> str:
     lines = []
     lines.append("## Event Logs — TTP Summary")
     lines.append("")
-    lines.append("| Technique | Tactic | Command | Windows source log | Detection | gap identified |")
+    lines.append("| Technique | Tactic | Command | Windows source log | Detection | Gap identified |")
     lines.append("|---|---|---|---|---|---|")
 
     for e in events:
